@@ -1,0 +1,16 @@
+Put real furniture .glb / .gltf models here once you have them.
+
+Right now the 3D showroom in script.js draws simple box shapes that stand in
+for each product (see buildFurniture() in script.js — each box is labeled
+with the product it represents, e.g. "king-bed base", "wardrobe").
+
+To use real models instead:
+1. Export your models as .glb (one file per product is easiest).
+2. Add this script tag in index.html, right after the three.min.js line:
+   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+3. In script.js, inside buildFurniture(), replace a box(...) line with:
+   const loader = new THREE.GLTFLoader();
+   loader.load('assets/models/king-bed.glb', (gltf) => {
+     gltf.scene.position.set(-2.4, 0, -1.6);
+     scene.add(gltf.scene);
+   });

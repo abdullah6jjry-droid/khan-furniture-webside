@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khan Furniture — Beautiful Furniture, Built for Your Home</title>
+<meta name="description" content="Khan Furniture — premium wooden furniture showroom in Pakistan. Beds, sofas, wardrobes, dining sets and custom furniture.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ LOADING SCREEN ============ -->
+<div id="loading-screen">
+  <div class="loader-mark">KF</div>
+  <div class="loader-bar"><div class="loader-fill" id="loader-fill"></div></div>
+  <p class="loader-text" data-en="Preparing your showroom…" data-ur="آپ کا شو روم تیار کیا جا رہا ہے…">Preparing your showroom…</p>
+</div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark">خ</span>
+      <span class="brand-name" data-en="Khan Furniture" data-ur="خان فرنیچر">Khan Furniture</span>
+    </a>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" data-en="Home" data-ur="ہوم">Home</a>
+      <a href="#showroom" data-en="3D Showroom" data-ur="3D شو روم">3D Showroom</a>
+      <a href="#products" data-en="Products" data-ur="مصنوعات">Products</a>
+      <a href="#bedroom" data-en="Bedroom" data-ur="بیڈ روم">Bedroom</a>
+      <a href="#living" data-en="Living Room" data-ur="لیونگ روم">Living Room</a>
+      <a href="#dining" data-en="Dining" data-ur="ڈائننگ">Dining</a>
+      <a href="#about" data-en="About Us" data-ur="ہمارے بارے میں">About Us</a>
+      <a href="#contact" data-en="Contact" data-ur="رابطہ">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="lang-switch" id="lang-switch" aria-label="Switch language">
+        <span class="lang-en">English</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-ur">اردو</span>
+      </button>
+      <a class="nav-wa wa-link" id="nav-wa-btn" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10.1 9 9.6 7.8 9.4 7.3c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.3-.6-.4z"/><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.5 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.5.9.9-3.4-.2-.4C3.5 14.6 3 13.3 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.3z"/></svg>
+        <span data-en="WhatsApp" data-ur="واٹس ایپ">WhatsApp</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="hero-canvas-wrap">
+    <canvas id="hero-canvas"></canvas>
+  </div>
+  <div class="hero-content">
+    <p class="hero-eyebrow" data-en="Pakistan's Wooden Furniture Showroom" data-ur="پاکستان کا معتبر لکڑی کا فرنیچر شو روم">Pakistan's Wooden Furniture Showroom</p>
+    <h1 class="hero-title" data-en="Khan Furniture" data-ur="خان فرنیچر">Khan Furniture</h1>
+    <p class="hero-tag" data-en="Beautiful Furniture. Built for Your Home." data-ur="خوبصورت فرنیچر، آپ کے گھر کے لیے خاص۔">Beautiful Furniture. Built for Your Home.</p>
+    <p class="hero-sub" data-en="Discover premium wooden furniture designed with quality, craftsmanship and style." data-ur="معیاری لکڑی، بہترین کاریگری اور خوبصورت ڈیزائن کے ساتھ اپنے گھر کو خاص بنائیں۔">Discover premium wooden furniture designed with quality, craftsmanship and style.</p>
+    <div class="hero-actions">
+      <a href="#showroom" class="btn btn-primary" data-en="Explore 3D Showroom" data-ur="3D شو روم دیکھیں">Explore 3D Showroom</a>
+      <a href="#products" class="btn btn-ghost" data-en="View Products" data-ur="مصنوعات دیکھیں">View Products</a>
+      <a href="#" class="btn btn-wa wa-link" data-en="Contact on WhatsApp" data-ur="واٹس ایپ پر رابطہ کریں">Contact on WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero-scroll-cue" aria-hidden="true"></div>
+</section>
+
+<!-- ============ 3D SHOWROOM ============ -->
+<section class="showroom-section" id="showroom">
+  <div class="section-head">
+    <h2 data-en="Step Inside the Showroom" data-ur="شو روم میں داخل ہوں">Step Inside the Showroom</h2>
+    <p data-en="Drag to look around. Click a highlighted piece to see details and order on WhatsApp." data-ur="گھمانے کے لیے گھسیٹیں۔ تفصیلات دیکھنے اور واٹس ایپ پر آرڈر کے لیے نشان زدہ فرنیچر پر کلک کریں۔">Drag to look around. Click a highlighted piece to see details and order on WhatsApp.</p>
+  </div>
+
+  <div class="showroom-stage" id="showroom-stage">
+    <canvas id="showroom-canvas"></canvas>
+
+    <!-- 2D fallback (shown automatically on low-power devices / no WebGL) -->
+    <div class="showroom-fallback" id="showroom-fallback" hidden>
+      <!-- REPLACE: swap these gradient panels with real showroom photographs -->
+      <div class="fallback-grid">
+        <div class="fallback-panel" data-room="bedroom">
+          <span data-en="Bedroom Section" data-ur="بیڈ روم سیکشن">Bedroom Section</span>
+        </div>
+        <div class="fallback-panel" data-room="living">
+          <span data-en="Living Room Section" data-ur="لیونگ روم سیکشن">Living Room Section</span>
+        </div>
+        <div class="fallback-panel" data-room="dining">
+          <span data-en="Dining Section" data-ur="ڈائننگ سیکشن">Dining Section</span>
+        </div>
+        <div class="fallback-panel" data-room="wardrobe">
+          <span data-en="Wardrobe Section" data-ur="وارڈروب سیکشن">Wardrobe Section</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="showroom-hint" id="showroom-hint">
+      <span data-en="Drag to look around · Click furniture for details" data-ur="گھمانے کے لیے گھسیٹیں · تفصیلات کے لیے فرنیچر پر کلک کریں">Drag to look around · Click furniture for details</span>
+    </div>
+    <div class="showroom-loading" id="showroom-loading">
+      <div class="spinner"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCT DETAIL MODAL (used by both 3D & cards) ============ -->
+<div class="product-modal" id="product-modal" hidden>
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <div class="modal-card">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <!-- REPLACE: product photo -->
+    <div class="modal-photo" id="modal-photo"></div>
+    <div class="modal-body">
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+      <div class="modal-polish">
+        <span class="modal-polish-label" data-en="Polish / Color" data-ur="پالش / رنگ">Polish / Color</span>
+        <div class="swatches" id="modal-swatches"></div>
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="modal-view-details" data-en="View Details" data-ur="تفصیلات دیکھیں">View Details</button>
+        <a class="btn btn-wa wa-link" id="modal-wa" target="_blank" rel="noopener" data-en="Order on WhatsApp" data-ur="واٹس ایپ پر آرڈر کریں">Order on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ BEDROOM COLLECTION ============ -->
+<section class="collection" id="bedroom">
+  <div class="collection-head">
+    <span class="collection-kicker" data-en="Bedroom" data-ur="بیڈ روم">Bedroom</span>
+    <h2 data-en="Bedroom Collection" data-ur="بیڈ روم کلیکشن">Bedroom Collection</h2>
+    <p data-en="Transform your bedroom with elegant furniture crafted for comfort and style." data-ur="اپنے بیڈ روم کو خوبصورت، آرام دہ اور جدید فرنیچر کے ساتھ منفرد بنائیں۔">Transform your bedroom with elegant furniture crafted for comfort and style.</p>
+  </div>
+  <div class="card-grid" id="grid-bedroom"></div>
+</section>
+
+<!-- ============ LIVING ROOM COLLECTION ============ -->
+<section class="collection alt" id="living">
+  <div class="collection-head">
+    <span class="collection-kicker" data-en="Living Room" data-ur="لیونگ روم">Living Room</span>
+    <h2 data-en="Living Room Collection" data-ur="لیونگ روم کلیکشن">Living Room Collection</h2>
+    <p data-en="Create a warm and elegant living space with our premium furniture." data-ur="اپنے گھر کے لیونگ روم کو خوبصورت اور آرام دہ فرنیچر سے سجائیں۔">Create a warm and elegant living space with our premium furniture.</p>
+  </div>
+  <div class="card-grid" id="grid-living"></div>
+</section>
+
+<!-- ============ DINING COLLECTION ============ -->
+<section class="collection" id="dining">
+  <div class="collection-head">
+    <span class="collection-kicker" data-en="Dining" data-ur="ڈائننگ">Dining</span>
+    <h2 data-en="Dining Collection" data-ur="ڈائننگ کلیکشن">Dining Collection</h2>
+    <p data-en="Beautiful dining furniture for memorable family moments." data-ur="خاندان کے خوبصورت لمحات کے لیے شاندار اور معیاری ڈائننگ فرنیچر۔">Beautiful dining furniture for memorable family moments.</p>
+  </div>
+  <div class="card-grid" id="grid-dining"></div>
+</section>
+
+<!-- ============ FEATURED PRODUCTS ============ -->
+<section class="featured" id="products">
+  <div class="section-head">
+    <h2 data-en="Featured Products" data-ur="نمایاں مصنوعات">Featured Products</h2>
+    <p data-en="Our most-loved pieces, handcrafted with premium wood." data-ur="ہماری مقبول ترین اشیاء، اعلیٰ معیار کی لکڑی سے تیار کردہ۔">Our most-loved pieces, handcrafted with premium wood.</p>
+  </div>
+  <div class="card-grid featured-grid" id="grid-featured"></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-text">
+      <span class="collection-kicker" data-en="Our Story" data-ur="ہماری کہانی">Our Story</span>
+      <h2 data-en="About Khan Furniture" data-ur="خان فرنیچر کے بارے میں">About Khan Furniture</h2>
+      <p data-en="At Khan Furniture, we combine traditional craftsmanship with modern designs to create furniture that makes your home beautiful and comfortable." data-ur="خان فرنیچر میں ہم روایتی کاریگری کو جدید ڈیزائن کے ساتھ ملا کر ایسا فرنیچر تیار کرتے ہیں جو آپ کے گھر کو خوبصورت اور آرام دہ بنائے۔">At Khan Furniture, we combine traditional craftsmanship with modern designs to create furniture that makes your home beautiful and comfortable.</p>
+      <p data-en="Our goal is to provide quality wooden furniture with beautiful designs and reliable craftsmanship." data-ur="ہمارا مقصد معیاری لکڑی، خوبصورت ڈیزائن اور بہترین کاریگری کے ذریعے اپنے صارفین کو معیاری فرنیچر فراہم کرنا ہے۔">Our goal is to provide quality wooden furniture with beautiful designs and reliable craftsmanship.</p>
+    </div>
+    <div class="about-visual">
+      <!-- REPLACE: workshop / showroom photograph -->
+      <div class="about-photo"></div>
+    </div>
+  </div>
+
+  <div class="why-us">
+    <h3 data-en="Why Choose Us" data-ur="ہمیں کیوں منتخب کریں">Why Choose Us</h3>
+    <div class="why-grid">
+      <div class="why-item"><span class="why-icon">🪵</span><p data-en="Quality Wood" data-ur="معیاری لکڑی">Quality Wood</p></div>
+      <div class="why-item"><span class="why-icon">🛠️</span><p data-en="Professional Craftsmanship" data-ur="ماہر کاریگری">Professional Craftsmanship</p></div>
+      <div class="why-item"><span class="why-icon">✨</span><p data-en="Modern Designs" data-ur="جدید ڈیزائن">Modern Designs</p></div>
+      <div class="why-item"><span class="why-icon">📐</span><p data-en="Custom Furniture" data-ur="کسٹم فرنیچر">Custom Furniture</p></div>
+      <div class="why-item"><span class="why-icon">🎨</span><p data-en="Beautiful Finishing" data-ur="بہترین فنشنگ">Beautiful Finishing</p></div>
+      <div class="why-item"><span class="why-icon">🤝</span><p data-en="Customer Satisfaction" data-ur="صارفین کا اطمینان">Customer Satisfaction</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <span class="collection-kicker" data-en="Get In Touch" data-ur="رابطہ کریں">Get In Touch</span>
+    <h2 data-en="Visit Khan Furniture" data-ur="خان فرنیچر سے رابطہ کریں">Visit Khan Furniture</h2>
+    <p data-en="Looking for furniture for your home? Contact us today and discuss your requirements." data-ur="اپنے گھر کے لیے خوبصورت فرنیچر تلاش کر رہے ہیں؟ آج ہی ہم سے رابطہ کریں اور اپنی ضرورت کے بارے میں بات کریں۔">Looking for furniture for your home? Contact us today and discuss your requirements.</p>
+    <p class="contact-phone" data-en="WhatsApp / Phone: 0329 9920992" data-ur="واٹس ایپ / فون: 0329 9920992">WhatsApp / Phone: 0329 9920992</p>
+    <div class="contact-actions">
+      <a href="#" class="btn btn-wa wa-link" data-en="Chat on WhatsApp" data-ur="واٹس ایپ پر رابطہ کریں">Chat on WhatsApp</a>
+      <a href="tel:+923299920992" class="btn btn-ghost" data-en="Call Now" data-ur="ابھی کال کریں">Call Now</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Khan+Furniture" target="_blank" rel="noopener" class="btn btn-ghost" data-en="Get Directions" data-ur="راستہ دیکھیں">Get Directions</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">خ</span>
+      <span data-en="Khan Furniture" data-ur="خان فرنیچر">Khan Furniture</span>
+    </div>
+    <p data-en="Beautiful Furniture. Built for Your Home." data-ur="خوبصورت فرنیچر، آپ کے گھر کے لیے خاص۔">Beautiful Furniture. Built for Your Home.</p>
+    <p class="footer-phone" data-en="WhatsApp / Phone: 0329 9920992" data-ur="واٹس ایپ / فون: 0329 9920992">WhatsApp / Phone: 0329 9920992</p>
+    <p class="footer-copy">&copy; <span id="footer-year"></span> Khan Furniture. <span data-en="All rights reserved." data-ur="جملہ حقوق محفوظ ہیں۔">All rights reserved.</span></p>
+  </div>
+</footer>
+
+<a href="#" class="fab-wa wa-link" id="fab-wa" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10.1 9 9.6 7.8 9.4 7.3c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.3-.6-.4z"/><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.6 1.5 5.2L2 22l4.9-1.3c1.5.8 3.2 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.5.9.9-3.4-.2-.4C3.5 14.6 3 13.3 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.3z"/></svg>
+</a>
+
+<!-- Three.js (pinned versions, UMD builds) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
