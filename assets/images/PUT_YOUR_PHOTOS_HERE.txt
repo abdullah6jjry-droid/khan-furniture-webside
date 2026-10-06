@@ -1,0 +1,11 @@
+Put your real Khan Furniture photos in this folder, then see README.md
+section "Add your own furniture photos" for how to wire them into the site
+(card photos, hero background, about section, modal photos).
+
+Suggested naming, so they're easy to find later:
+  king-bed.jpg
+  bedroom-set.jpg
+  wardrobe.jpg
+  sofa-set.jpg
+  dining-table.jpg
+  ...one per product id in data.js
